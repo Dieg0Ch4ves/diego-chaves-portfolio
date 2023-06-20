@@ -1,0 +1,90 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  background: linear-gradient(var(--cor-13), var(--cor-12), var(--cor-2), var(--cor-3));
+}
+
+.col-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  padding-top: 60px;
+}
+
+.col-text p {
+  font-size: 1.5rem;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.04);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.col-text h1 {
+  font-size: 1.75rem;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.col-form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--cor-13);
+  border-radius: 10px;
+  padding: 60px;
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.col-form input[type="text"], input[type="email"] {
+  width: 300px;
+  height: 40px;
+  color: #000;
+  font-size: 1rem;
+  font-family: 'Sora';
+  background: linear-gradient(var(--cor-7), var(--cor-8));
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 3px solid #CCC;
+}
+
+.col-form textarea {
+  max-width: 300px;
+  height: 80px;
+  font-size: 1rem;
+  font-family: 'Sora';
+  color: #000;
+  background: linear-gradient(var(--cor-7), var(--cor-8));
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 3px solid #CCC;
+}
+
+button {
+  padding: 20px 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background: linear-gradient(var(--cor-7), var(--cor-9), var(--cor-10));
+  cursor: pointer;
+}
+
+button:hover {
+  background: #83a07a;
+  color: var(--cor-13);
+}
+
+@media(max-width: 700px) {
+  .col-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--cor-13);
+    border-radius: 10px;
+    padding: 40px;
+  }
+
+}

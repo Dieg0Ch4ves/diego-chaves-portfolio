@@ -1,11 +1,21 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { ProjetosComponent } from './projetos/projetos.component';
+import { FormContatoComponent } from './form-contato/form-contato.component';
+import { TecnologiasComponent } from './tecnologias/tecnologias.component';
+import { FooterComponent } from './footer/footer.component';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    ProjetosComponent,
+    FormContatoComponent,
+    TecnologiasComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule

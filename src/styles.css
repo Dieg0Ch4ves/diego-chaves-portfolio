@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --cor-1: #f7f4e8;
+  --cor-2: #daf3ea;
+  --cor-3:#85e6c0;
+  --cor-4:#6bb39b;
+  --cor-5:#0b0b0d;
+  --cor-6:#ffffc2;
+  --cor-7:#f0ffc2;
+  --cor-8:#e0ffc2;
+  --cor-9:#d1ffc2;
+  --cor-10:#c2ffc2;
+  --cor-11:#ffffce;
+  --cor-12:#ffffdf;
+  --cor-13:#ffffe9;
+}
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: 'Sora', sans-serif;
+}
