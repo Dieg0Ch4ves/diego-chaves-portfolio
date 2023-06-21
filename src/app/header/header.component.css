@@ -55,12 +55,8 @@ img {
   height: 48px;
 }
 
-.desc-1 {
-  margin-left: 200px;
-}
-
 .desc-2 {
-  margin-left: 200px;
+  margin-left: 120px;
 }
 
 @media (max-width: 1200px) {
@@ -73,9 +69,15 @@ img {
     font-size: 3rem;
   }
 
+  .h1-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
   img {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
   }
   .desc-1 {
     margin-left: 200px;
@@ -113,4 +115,25 @@ img {
     margin-left: 60px;
     margin-right: auto;
   }
+}
+
+@media(max-width: 400px) {
+  p {
+    font-size: 0.75rem;
+    margin-right: 120px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+  .desc-1 {
+    margin-left: 40px;
+    margin-right: auto;
+  }
+
+  .desc-2 {
+    margin-left: 40px;
+    margin-right: auto;
+  }
+
 }

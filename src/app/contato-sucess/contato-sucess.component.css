@@ -1,0 +1,29 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(var(--cor-2), var(--cor-3), var(--cor-4));
+  height: 100vh;
+}
+
+h1, p {
+  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.10);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background: linear-gradient(var(--cor-7), var(--cor-9), var(--cor-10));
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+
+button:hover {
+  background: #83a07a;
+  color: var(--cor-13);
+}
