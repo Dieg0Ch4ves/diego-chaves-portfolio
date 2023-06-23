@@ -1,14 +1,24 @@
 section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(var(--cor-4), var(--cor-9), var(--cor-8));
   padding-bottom: 200px;
   padding-top: 100px;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .card1 {
   margin-left: 40px;
+  border: 4px solid transparent;
+}
+
+.card1:hover ,.card2:hover {
+  border: 4px solid rgb(20, 98, 255);
+}
+
+button {
+  background: transparent;
 }
 
 .monitor-container1 {
@@ -30,15 +40,15 @@ section {
   width: 300px;
   height: 300px;
   top: 80px;
-  right: 50px;
+  left: 302px;
   z-index: 2;
 }
 
 .screen1 {
   position: absolute;
   top: 18%;
-  left: 11%;
-  width: 55%;
+  left: 10%;
+  width: 56%;
   max-width: 100%;
   height: 55%;
   background-image: url('../../assets/imgs/foto3.PNG');
@@ -64,9 +74,13 @@ section {
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  font-family: 'Sora';
+  font-size: 1rem;
+  color: var(--cor-5);
 }
 .card2 {
   margin-left: 40px;
+  border: 4px solid transparent;
 }
 
 .monitor-container2 {
@@ -121,7 +135,10 @@ section {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: 'Sora';
+  font-size: 1rem;
   align-items: center;
+  color: var(--cor-5);
 }
 
 @media(max-width: 750px) {
@@ -164,7 +181,7 @@ section {
   }
   .screen3 {
     top: 35px;
-    left: 59px;
+    left: 100px;
     width: 183px;
     max-width: 100%;
     height: 55%;
@@ -189,7 +206,7 @@ section {
     width: 150px;
     height: 150px;
     top: 60px;
-    left: 160px;
+    left: 200px;
   }
 
   .card1 {
