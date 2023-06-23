@@ -1,27 +1,16 @@
 # Portfolio
+Olá! Bem-vindo ao meu portfólio de full-stack! Sou um desenvolvedor full-stack apaixonado por criar soluções inovadoras e eficientes. Meu portfólio reflete minha experiência e habilidades em uma ampla gama de tecnologias e frameworks.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.8.
+No lado do front-end, tenho experiência sólida em HTML, CSS e JavaScript, juntamente com frameworks populares como React.js e Angular. Crio interfaces de usuário intuitivas e responsivas, oferecendo uma experiência de usuário agradável e moderna.
 
-## Development server
+No lado do back-end, sou especializado em Java e tenho experiência com o framework Spring Boot. Desenvolvo APIs robustas e escaláveis, utilizando boas práticas de programação e segurança. Além disso, estou familiarizado com bancos de dados relacionais, como MySQL e PostgreSQL, bem como com bancos de dados NoSQL, como MongoDB.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Além disso, tenho conhecimentos em DevOps e práticas de CI/CD, utilizando ferramentas como GitLab e Docker para implantação de aplicativos em ambientes de produção.
 
-## Code scaffolding
+Ao explorar meu portfólio, você encontrará uma variedade de projetos que demonstram minha capacidade de criar soluções do início ao fim. Desde pequenos projetos de demonstração até aplicativos completos, cada projeto destaca uma abordagem diferente e uma variedade de recursos técnicos.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Estou constantemente buscando aprender novas tecnologias e me manter atualizado com as últimas tendências da indústria. Adoro desafios e estou sempre pronto para enfrentar novos projetos emocionantes.
 
-## Build
+Sinta-se à vontade para explorar meu portfólio no GitHub para obter mais informações sobre meus projetos e detalhes técnicos. Se você tiver alguma pergunta ou estiver interessado em colaborar em um projeto, não hesite em entrar em contato comigo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Obrigado por visitar meu portfólio de full-stack! Espero que você aprecie meu trabalho e que possamos trabalhar juntos em um futuro próximo.
