@@ -12,7 +12,25 @@ export class FormContatoComponent {
   email = '';
   mensagem = '';
 
+  textToCopy: string = 'diegoaraujo200570@gmail.com';
+  copied: boolean = false;
+
   constructor(private http: HttpClient, private router: Router) {}
+
+  copy() {
+    navigator.clipboard.writeText(this.textToCopy).then(
+      () => {
+        this.copied = true;
+        setTimeout(() => {
+          this.copied = false;
+        }, 1500); // Reset "copied" after 1.5 seconds
+      },
+      (err) => {
+        console.error('Failed to copy text: ', err);
+      }
+    );
+  }
+
 
   enviar() {
     const url = 'https://api.staticforms.xyz/submit';

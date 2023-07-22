@@ -1,0 +1,11 @@
+<nav class="nav-bar" [ngClass]="{'nav-bar-scrolled' : isNavBarScrolled}">
+  <div class="flex">
+    <a><button  class="home" (click)="scroll('header')">D. C</button></a>
+    <div class="bar-div">
+      <a><button (click)="scroll('projetos')">Projetos</button></a>
+      <a><button (click)="scroll('sobre')">Sobre mim</button></a>
+      <a><button (click)="scroll('tecno')">Tecnologias</button></a>
+      <a><button (click)="scroll('contato')">Contato</button></a>
+    </div>
+  </div>
+</nav>

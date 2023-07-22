@@ -15,6 +15,8 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { LayoutComponent } from './layout/layout.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { SobreComponent } from './sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { LayoutComponent } from './layout/layout.component';
     FooterComponent,
     ContatoSucessComponent,
     LayoutComponent,
+    NavBarComponent,
+    SobreComponent,
   ],
   imports: [
     AppRoutingModule,

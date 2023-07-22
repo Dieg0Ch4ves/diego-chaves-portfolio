@@ -1,7 +1,12 @@
-<section>
+<section id="contato">
   <div class="col-text">
     <p>ENTRE EM CONTATO</p>
     <h1>Preencha o formulário para dar inicio a um projeto !</h1>
+    <p>OU então</p>
+    <div class="click-copy">
+      <button (click)="copy()">{{ copied === true ? 'Copiado !' : 'Clique aqui para copiar o E-mail' }}</button>
+      <h2 [style.background-color]="copied ? '#a7ff69' : '#FFF'">diegoaraujo200570@gmail.com</h2>
+    </div>
   </div>
   <form (ngSubmit)="enviar()" method="post" class="col-form">
 

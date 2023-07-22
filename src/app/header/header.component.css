@@ -2,14 +2,15 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 150px;
   padding-bottom: 200px;
   background: radial-gradient(var(--cor-2),var(--cor-3),var(--cor-4));
+  border-bottom: 2px solid var(--cor-5);
 }
 
 p {
   color: var(--cor-5);
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-right: 400px;
   font-weight: bold;
   box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.10);
@@ -20,7 +21,7 @@ p {
 h1 {
   padding: 10px;
   color: var(--cor-5);
-  font-size: 6rem;
+  font-size: 7rem;
   box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.10);
   border-radius: 10px;
   position: relative;
@@ -50,13 +51,15 @@ button:hover , a:hover {
   transform: translateY(-10px);
 }
 
+
 img {
   width: 48px;
   height: 48px;
+  transition: 0.3s;
 }
 
 .desc-2 {
-  margin-left: 120px;
+  margin-left: 300px;
 }
 
 @media (max-width: 1200px) {

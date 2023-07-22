@@ -18,9 +18,7 @@ section {
 
 .col-text p {
   font-size: 1.5rem;
-  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.04);
   padding: 5px;
-  border-radius: 4px;
 }
 
 .col-text h1 {
@@ -28,6 +26,31 @@ section {
   box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   padding: 5px;
+}
+
+
+.click-copy {
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.click-copy button {
+  width: 100%;
+  background: linear-gradient(var(--cor-3), var(--cor-4));
+  border-radius: 0px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.click-copy button:hover {
+  background: #000;
+}
+
+.click-copy h2 {
+  padding: 20px;
+  border: 2px solid var(--cor-5);
+  border-radius: 4px;
+  transition: 0.3s;
 }
 
 .col-form {
@@ -121,5 +144,25 @@ button:hover {
       padding: 10px;
       border-radius: 4px;
       border-bottom: 3px solid #CCC;
+    }
+
+    .click-copy {
+      width: 300px;
+    }
+
+    .click-copy button {
+      font-size: 0.75rem;
+      padding: 10px;
+      transition: 0.3s;
+    }
+
+    .click-copy button:hover {
+      background: #000;
+    }
+
+    .click-copy h2 {
+      font-size: 0.75rem;
+      padding: 5px;
+      text-align: center;
     }
 }

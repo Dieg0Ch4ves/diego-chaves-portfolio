@@ -8,8 +8,8 @@ section {
 }
 
 h1 {
+  margin-top: 100px;
   font-size: 3rem;
-  box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.04);
   color: var(--cor-5);
   border-radius: 4px;
 }
